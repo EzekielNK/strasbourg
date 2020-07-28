@@ -1,0 +1,319 @@
+0000.012 (0) Opened log file at time: Tue, 26 Nov 2019 14:16:22 +0000 on https://strasbourg.virtualdev.fr
+0000.014 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.20 WP: 5.2.4 PHP: 7.2.24 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 61.3M | 62.3M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 403783.5 MB
+0000.018 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.018 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.049 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1574692084, seconds_ago=85698)
+0000.051 (0) Set semaphore last lock (d) time to 2019-11-26 14:16:22
+0000.053 (0) Semaphore lock (d) complete
+0000.057 (0) Backup run: resumption=0, nonce=12fb8c48c8f9, file_nonce=12fb8c48c8f9 begun at=1574777782 (0s ago), job type=backup
+0000.058 (0) Scheduling a resumption (1) after 300 seconds (1574778082) in case this run gets aborted
+0000.089 (0) This backup run is not intended for files - skipping
+0000.090 (0) Beginning creation of database dump (WordPress DB)
+0000.093 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.111 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1202 bytes total)
+0000.115 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.200 (0) Table wp_options: Total expected rows (approximate): 890
+0000.233 (0) Table wp_options: Total rows added: 886 in 0.03 seconds
+0000.235 (0) Table wp_options: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_options.table.gz - 47.9 KB)
+0000.241 (0) Table wp_users: Total expected rows (approximate): 2
+0000.248 (0) Table wp_users: Total rows added: 2 in 0.01 seconds
+0000.250 (0) Table wp_users: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_users.table.gz - 0.6 KB)
+0000.254 (0) Table wp_usermeta: Total expected rows (approximate): 78
+0000.258 (0) Table wp_usermeta: Total rows added: 78 in 0.00 seconds
+0000.260 (0) Table wp_usermeta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_usermeta.table.gz - 2.6 KB)
+0000.276 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.279 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.279 (0) Table wp_commentmeta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.284 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.288 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0000.289 (0) Table wp_comments: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_comments.table.gz - 0.5 KB)
+0000.296 (0) Table wp_links: Total expected rows (approximate): 0
+0000.299 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.300 (0) Table wp_links: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_links.table.gz - 0.4 KB)
+0000.304 (0) Table wp_postmeta: Total expected rows (approximate): 824
+0000.324 (0) Table wp_postmeta: Total rows added: 824 in 0.02 seconds
+0000.326 (0) Table wp_postmeta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_postmeta.table.gz - 28.1 KB)
+0000.328 (0) Table wp_posts: Total expected rows (approximate): 740
+0000.587 (0) Table wp_posts: Total rows added: 740 in 0.26 seconds
+0000.588 (0) Table wp_posts: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_posts.table.gz - 272.9 KB)
+0000.592 (0) Table wp_term_relationships: Total expected rows (approximate): 19
+0000.596 (0) Table wp_term_relationships: Total rows added: 19 in 0.00 seconds
+0000.597 (0) Table wp_term_relationships: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0000.602 (0) Table wp_term_taxonomy: Total expected rows (approximate): 12
+0000.609 (0) Table wp_term_taxonomy: Total rows added: 12 in 0.01 seconds
+0000.611 (0) Table wp_term_taxonomy: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0000.618 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0000.623 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0000.624 (0) Table wp_termmeta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_termmeta.table.gz - 0.4 KB)
+0000.628 (0) Table wp_terms: Total expected rows (approximate): 12
+0000.632 (0) Table wp_terms: Total rows added: 12 in 0.00 seconds
+0000.633 (0) Table wp_terms: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_terms.table.gz - 0.6 KB)
+0000.842 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 87
+0000.849 (0) Table wp_yoast_seo_links: Total rows added: 87 in 0.01 seconds
+0000.850 (0) Table wp_yoast_seo_links: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_yoast_seo_links.table.gz - 1.7 KB)
+0000.860 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 457
+0000.870 (0) Table wp_yoast_seo_meta: Total rows added: 457 in 0.01 seconds
+0000.871 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_yoast_seo_meta.table.gz - 1.4 KB)
+0000.875 (0) Table wp_blc_filters: Total expected rows (approximate): 0
+0000.877 (0) Table wp_blc_filters: Total rows added: 0 in 0.00 seconds
+0000.878 (0) Table wp_blc_filters: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_filters.table.gz - 0.3 KB)
+0000.880 (0) Table wp_blc_instances: Total expected rows (approximate): 34
+0000.889 (0) Table wp_blc_instances: Total rows added: 34 in 0.01 seconds
+0000.890 (0) Table wp_blc_instances: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_instances.table.gz - 1.8 KB)
+0000.893 (0) Table wp_blc_links: Total expected rows (approximate): 30
+0000.898 (0) Table wp_blc_links: Total rows added: 30 in 0.00 seconds
+0000.899 (0) Table wp_blc_links: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_links.table.gz - 5.3 KB)
+0000.906 (0) Table wp_blc_synch: Total expected rows (approximate): 16
+0000.911 (0) Table wp_blc_synch: Total rows added: 16 in 0.00 seconds
+0000.912 (0) Table wp_blc_synch: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_synch.table.gz - 0.6 KB)
+0000.919 (0) Table wp_em_bookings: Total expected rows (approximate): 0
+0000.927 (0) Table wp_em_bookings: Total rows added: 0 in 0.01 seconds
+0000.928 (0) Table wp_em_bookings: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_bookings.table.gz - 0.5 KB)
+0000.934 (0) Table wp_em_events: Total expected rows (approximate): 13
+0000.941 (0) Table wp_em_events: Total rows added: 13 in 0.01 seconds
+0000.942 (0) Table wp_em_events: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_events.table.gz - 6.6 KB)
+0000.948 (0) Table wp_em_locations: Total expected rows (approximate): 12
+0000.955 (0) Table wp_em_locations: Total rows added: 12 in 0.01 seconds
+0000.956 (0) Table wp_em_locations: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_locations.table.gz - 1.6 KB)
+0000.962 (0) Table wp_em_meta: Total expected rows (approximate): 0
+0000.964 (0) Table wp_em_meta: Total rows added: 0 in 0.00 seconds
+0000.966 (0) Table wp_em_meta: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_meta.table.gz - 0.4 KB)
+0000.973 (0) Table wp_em_tickets: Total expected rows (approximate): 12
+0000.979 (0) Table wp_em_tickets: Total rows added: 12 in 0.01 seconds
+0000.980 (0) Table wp_em_tickets: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_tickets.table.gz - 0.9 KB)
+0000.987 (0) Table wp_em_tickets_bookings: Total expected rows (approximate): 0
+0000.992 (0) Table wp_em_tickets_bookings: Total rows added: 0 in 0.00 seconds
+0000.992 (0) Table wp_em_tickets_bookings: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_tickets_bookings.table.gz - 0.4 KB)
+0000.996 (0) Table wp_litespeed_img_optm: Total expected rows (approximate): 0
+0001.004 (0) Table wp_litespeed_img_optm: Total rows added: 0 in 0.00 seconds
+0001.005 (0) Table wp_litespeed_img_optm: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_litespeed_img_optm.table.gz - 0.5 KB)
+0001.012 (0) Table wp_litespeed_optimizer: Total expected rows (approximate): 0
+0001.015 (0) Table wp_litespeed_optimizer: Total rows added: 0 in 0.00 seconds
+0001.016 (0) Table wp_litespeed_optimizer: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_litespeed_optimizer.table.gz - 0.4 KB)
+0001.020 (0) Table wp_omega_index_status: Total expected rows (approximate): 31
+0001.032 (0) Table wp_omega_index_status: Total rows added: 31 in 0.01 seconds
+0001.037 (0) Table wp_omega_index_status: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_omega_index_status.table.gz - 9.8 KB)
+0001.043 (0) Table wp_psninja_amdd: Total expected rows (approximate): 7976
+0001.204 (0) Table wp_psninja_amdd: Total rows added: 7976 in 0.16 seconds
+0001.206 (0) Table wp_psninja_amdd: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_amdd.table.gz - 68.2 KB)
+0001.210 (0) Table wp_psninja_amdd_cache: Total expected rows (approximate): 0
+0001.212 (0) Table wp_psninja_amdd_cache: Total rows added: 0 in 0.00 seconds
+0001.213 (0) Table wp_psninja_amdd_cache: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_amdd_cache.table.gz - 0.3 KB)
+0001.217 (0) Table wp_psninja_urls: Total expected rows (approximate): 114
+0001.221 (0) Table wp_psninja_urls: Total rows added: 114 in 0.00 seconds
+0001.223 (0) Table wp_psninja_urls: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_urls.table.gz - 4.5 KB)
+0001.227 (0) Table wp_redirection_404: Total expected rows (approximate): 11
+0001.233 (0) Table wp_redirection_404: Total rows added: 11 in 0.01 seconds
+0001.235 (0) Table wp_redirection_404: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_404.table.gz - 0.9 KB)
+0001.244 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0001.250 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0001.251 (0) Table wp_redirection_groups: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0001.254 (0) Table wp_redirection_items: Total expected rows (approximate): 17
+0001.259 (0) Table wp_redirection_items: Total rows added: 17 in 0.00 seconds
+0001.260 (0) Table wp_redirection_items: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_items.table.gz - 1.3 KB)
+0001.267 (0) Table wp_redirection_logs: Total expected rows (approximate): 41
+0001.274 (0) Table wp_redirection_logs: Total rows added: 41 in 0.01 seconds
+0001.275 (0) Table wp_redirection_logs: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_logs.table.gz - 1.4 KB)
+0001.282 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0001.285 (0) Table wp_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0001.285 (0) Table wp_smush_dir_images: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+0001.290 (0) Table wp_wfblockediplog: Total expected rows (approximate): 2
+0001.296 (0) Table wp_wfblockediplog: Total rows added: 2 in 0.01 seconds
+0001.297 (0) Table wp_wfblockediplog: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfblockediplog.table.gz - 0.4 KB)
+0001.301 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0001.304 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0001.305 (0) Table wp_wfblocks7: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0001.309 (0) Table wp_wfconfig: Total expected rows (approximate): 256
+0001.336 (0) Table wp_wfconfig: Total rows added: 256 in 0.03 seconds
+0001.338 (0) Table wp_wfconfig: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfconfig.table.gz - 368.8 KB)
+0001.346 (0) Table wp_wfcrawlers: Total expected rows (approximate): 6
+0001.350 (0) Table wp_wfcrawlers: Total rows added: 6 in 0.00 seconds
+0001.351 (0) Table wp_wfcrawlers: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfcrawlers.table.gz - 0.6 KB)
+0001.357 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0001.362 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0001.364 (0) Table wp_wffilechanges: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0001.372 (0) Table wp_wffilemods: Total expected rows (approximate): 11292
+0001.519 (0) Table wp_wffilemods: binary mysqldump finished (writes: 37) in 0.15 seconds
+0001.521 (0) Table wp_wffilemods: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wffilemods.table.gz - 894.9 KB)
+0001.525 (0) Table wp_wfhits: Total expected rows (approximate): 13
+0001.776 (0) Table wp_wfhits: Total rows added: 13 in 0.25 seconds
+0001.777 (0) Table wp_wfhits: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfhits.table.gz - 1.1 KB)
+0001.792 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0001.795 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0001.795 (0) Table wp_wfhoover: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0001.799 (0) Table wp_wfissues: Total expected rows (approximate): 2
+0001.802 (0) Table wp_wfissues: Total rows added: 2 in 0.00 seconds
+0001.803 (0) Table wp_wfissues: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfissues.table.gz - 1.3 KB)
+0001.810 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 11292
+0001.894 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 28) in 0.08 seconds
+0001.895 (0) Table wp_wfknownfilelist: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfknownfilelist.table.gz - 115.9 KB)
+0001.899 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0001.902 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0001.903 (0) Table wp_wflivetraffichuman: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0001.906 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0001.912 (0) Table wp_wflocs: Total rows added: 1 in 0.01 seconds
+0001.913 (0) Table wp_wflocs: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflocs.table.gz - 0.5 KB)
+0001.918 (0) Table wp_wflogins: Total expected rows (approximate): 66
+0001.922 (0) Table wp_wflogins: Total rows added: 66 in 0.00 seconds
+0001.923 (0) Table wp_wflogins: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflogins.table.gz - 1.9 KB)
+0001.940 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0001.942 (0) Table wp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0001.943 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0001.954 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0001.957 (0) Table wp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0001.958 (0) Table wp_wfls_settings: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfls_settings.table.gz - 0.7 KB)
+0001.965 (0) Table wp_wfnotifications: Total expected rows (approximate): 60
+0001.972 (0) Table wp_wfnotifications: Total rows added: 60 in 0.01 seconds
+0001.973 (0) Table wp_wfnotifications: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfnotifications.table.gz - 1.3 KB)
+0001.979 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0001.981 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0001.982 (0) Table wp_wfpendingissues: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0001.987 (0) Table wp_wfreversecache: Total expected rows (approximate): 3
+0001.994 (0) Table wp_wfreversecache: Total rows added: 3 in 0.01 seconds
+0001.995 (0) Table wp_wfreversecache: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfreversecache.table.gz - 0.5 KB)
+0002.002 (0) Table wp_wfsnipcache: Total expected rows (approximate): 1
+0002.007 (0) Table wp_wfsnipcache: Total rows added: 1 in 0.00 seconds
+0002.008 (0) Table wp_wfsnipcache: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0002.012 (0) Table wp_wfstatus: Total expected rows (approximate): 953
+0002.027 (0) Table wp_wfstatus: Total rows added: 953 in 0.01 seconds
+0002.028 (0) Table wp_wfstatus: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfstatus.table.gz - 16.7 KB)
+0002.031 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0002.033 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0002.034 (0) Table wp_wftrafficrates: finishing file (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0002.037 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_options.table.gz (1/56): adding to final database dump
+0002.047 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_users.table.gz (2/56): adding to final database dump
+0002.048 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_usermeta.table.gz (3/56): adding to final database dump
+0002.049 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_commentmeta.table.gz (4/56): adding to final database dump
+0002.050 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_comments.table.gz (5/56): adding to final database dump
+0002.050 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_links.table.gz (6/56): adding to final database dump
+0002.051 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_postmeta.table.gz (7/56): adding to final database dump
+0002.059 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_posts.table.gz (8/56): adding to final database dump
+0002.180 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_term_relationships.table.gz (9/56): adding to final database dump
+0002.181 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_term_taxonomy.table.gz (10/56): adding to final database dump
+0002.182 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_termmeta.table.gz (11/56): adding to final database dump
+0002.183 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_terms.table.gz (12/56): adding to final database dump
+0002.184 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_yoast_seo_links.table.gz (13/56): adding to final database dump
+0002.185 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_yoast_seo_meta.table.gz (14/56): adding to final database dump
+0002.186 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_filters.table.gz (15/56): adding to final database dump
+0002.187 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_instances.table.gz (16/56): adding to final database dump
+0002.189 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_links.table.gz (17/56): adding to final database dump
+0002.192 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_blc_synch.table.gz (18/56): adding to final database dump
+0002.193 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_bookings.table.gz (19/56): adding to final database dump
+0002.193 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_events.table.gz (20/56): adding to final database dump
+0002.196 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_locations.table.gz (21/56): adding to final database dump
+0002.196 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_meta.table.gz (22/56): adding to final database dump
+0002.197 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_tickets.table.gz (23/56): adding to final database dump
+0002.199 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_em_tickets_bookings.table.gz (24/56): adding to final database dump
+0002.199 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_litespeed_img_optm.table.gz (25/56): adding to final database dump
+0002.200 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_litespeed_optimizer.table.gz (26/56): adding to final database dump
+0002.201 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_omega_index_status.table.gz (27/56): adding to final database dump
+0002.204 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_amdd.table.gz (28/56): adding to final database dump
+0002.246 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_amdd_cache.table.gz (29/56): adding to final database dump
+0002.247 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_psninja_urls.table.gz (30/56): adding to final database dump
+0002.249 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_404.table.gz (31/56): adding to final database dump
+0002.250 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_groups.table.gz (32/56): adding to final database dump
+0002.251 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_items.table.gz (33/56): adding to final database dump
+0002.252 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_redirection_logs.table.gz (34/56): adding to final database dump
+0002.253 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_smush_dir_images.table.gz (35/56): adding to final database dump
+0002.254 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfblockediplog.table.gz (36/56): adding to final database dump
+0002.255 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfblocks7.table.gz (37/56): adding to final database dump
+0002.256 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfconfig.table.gz (38/56): adding to final database dump
+0002.283 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfcrawlers.table.gz (39/56): adding to final database dump
+0002.284 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wffilechanges.table.gz (40/56): adding to final database dump
+0002.285 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wffilemods.table.gz (41/56): adding to final database dump
+0002.375 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfhits.table.gz (42/56): adding to final database dump
+0002.376 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfhoover.table.gz (43/56): adding to final database dump
+0002.377 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfissues.table.gz (44/56): adding to final database dump
+0002.378 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfknownfilelist.table.gz (45/56): adding to final database dump
+0002.405 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflivetraffichuman.table.gz (46/56): adding to final database dump
+0002.406 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflocs.table.gz (47/56): adding to final database dump
+0002.406 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wflogins.table.gz (48/56): adding to final database dump
+0002.408 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfls_2fa_secrets.table.gz (49/56): adding to final database dump
+0002.409 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfls_settings.table.gz (50/56): adding to final database dump
+0002.409 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfnotifications.table.gz (51/56): adding to final database dump
+0002.410 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfpendingissues.table.gz (52/56): adding to final database dump
+0002.411 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfreversecache.table.gz (53/56): adding to final database dump
+0002.412 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfsnipcache.table.gz (54/56): adding to final database dump
+0002.412 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wfstatus.table.gz (55/56): adding to final database dump
+0002.417 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db-table-wp_wftrafficrates.table.gz (56/56): adding to final database dump
+0002.419 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz: finished writing out complete database file (1840 KB)
+0002.445 (0) Total database tables backed up: 56 (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz, size: 1904136, sha1: 8c904fe74b910c4d9c62ca4d7a0c0b6fe9135b53, sha256: be8446c86eb6d9601a71dcd71d1e5f29587c2a5e7ccb689c5a1075e8d36f5e46)
+0002.454 (0) backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.455 (0) Saving backup history. Total backup size: 1.8 MB
+0002.460 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.462 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0002.468 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-9697ce7d3d4007c79688d5f9d9b0368f)
+0002.469 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0002.603 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0003.122 (0) Dropbox: quota usage: used=806.9 MB, total=3328 MB, available=2521.1 MB
+0003.124 (0) Dropbox: Attempt to upload: backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz to: backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz
+0004.077 (0) Dropbox chunked upload: 55.1 % uploaded (AAAAAAAABTxHSPzlyBtfxQ, 1048576, 5120 KB)
+0004.993 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABTxHSPzlyBtfxQ, 1904136, 5120 KB)
+0006.765 (0) Recording as successfully uploaded: backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz
+0006.768 (0) Deleting local file: backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz: OK
+0006.769 (0) Dropbox: File upload success (backup_2019-11-26-1516_Office_de_Tourisme_de_Strasbourg_12fb8c48c8f9-db.gz): 1859 KB in 3s (510 KB/s)
+0006.774 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=10
+0006.776 (0) Number of backup sets in history: 12; groups (db): 1
+0006.777 (0) Examining (for databases) backup set with group_id=0, nonce=12fb8c48c8f9, datestamp=1574777782 (Nov 26 2019 14:16:22)
+0006.777 (0) This backup set is the backup set just made, so will not be deleted.
+0006.777 (0) Examining (for databases) backup set with group_id=0, nonce=924760f4ed92, datestamp=1574692084 (Nov 25 2019 14:28:04)
+0006.777 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.778 (0) Examining (for databases) backup set with group_id=0, nonce=54791caa1bf0, datestamp=1574605203 (Nov 24 2019 14:20:03)
+0006.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.779 (0) Examining (for databases) backup set with group_id=0, nonce=947eac01c586, datestamp=1574518700 (Nov 23 2019 14:18:20)
+0006.779 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.779 (0) Examining (for databases) backup set with group_id=0, nonce=436fa0276c6d, datestamp=1574433502 (Nov 22 2019 14:38:22)
+0006.779 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.779 (0) Examining (for databases) backup set with group_id=0, nonce=39191a813652, datestamp=1574346346 (Nov 21 2019 14:25:46)
+0006.779 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.780 (0) Examining (for databases) backup set with group_id=0, nonce=78cd7fb4f95f, datestamp=1574260341 (Nov 20 2019 14:32:21)
+0006.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.780 (0) Examining (for databases) backup set with group_id=0, nonce=504def462ebe, datestamp=1574173513 (Nov 19 2019 14:25:13)
+0006.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.780 (0) Examining (for databases) backup set with group_id=0, nonce=194914f083c5, datestamp=1574087112 (Nov 18 2019 14:25:12)
+0006.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.780 (0) Examining (for databases) backup set with group_id=0, nonce=5c1ef2820fc9, datestamp=1574001012 (Nov 17 2019 14:30:12)
+0006.781 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.781 (0) Examining (for databases) backup set with group_id=0, nonce=de141ef5711d, datestamp=1573914144 (Nov 16 2019 14:22:24)
+0006.781 (0) 1573914144: db: this set includes a database (backup_2019-11-16-1522_Office_de_Tourisme_de_Strasbourg_de141ef5711d-db.gz); db count is now 10
+0006.781 (0) 1573914144: db: over retain limit (10); will delete this database
+0006.781 (0) Delete file: backup_2019-11-16-1522_Office_de_Tourisme_de_Strasbourg_de141ef5711d-db.gz, service=dropbox
+0006.782 (0) Dropbox: request deletion: backup_2019-11-16-1522_Office_de_Tourisme_de_Strasbourg_de141ef5711d-db.gz
+0007.388 (0) Dropbox: delete succeeded
+0007.391 (0) This backup set is now empty; will remove from history
+0007.392 (0) Deleting log file (log.de141ef5711d.txt)
+0007.394 (0) Examining (for databases) backup set with group_id=0, nonce=4273ffe1ff91, datestamp=1573741865 (Nov 14 2019 14:31:05)
+0007.394 (0) Number of backup sets in history: 11; groups (files): 1
+0007.395 (0) Examining (for files) backup set with nonce=12fb8c48c8f9, datestamp=1574777782 (Nov 26 2019 14:16:22)
+0007.395 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.396 (0) Examining (for files) backup set with nonce=924760f4ed92, datestamp=1574692084 (Nov 25 2019 14:28:04)
+0007.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.396 (0) Examining (for files) backup set with nonce=54791caa1bf0, datestamp=1574605203 (Nov 24 2019 14:20:03)
+0007.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.396 (0) Examining (for files) backup set with nonce=947eac01c586, datestamp=1574518700 (Nov 23 2019 14:18:20)
+0007.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.396 (0) Examining (for files) backup set with nonce=436fa0276c6d, datestamp=1574433502 (Nov 22 2019 14:38:22)
+0007.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.396 (0) Examining (for files) backup set with nonce=39191a813652, datestamp=1574346346 (Nov 21 2019 14:25:46)
+0007.396 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.397 (0) Examining (for files) backup set with nonce=78cd7fb4f95f, datestamp=1574260341 (Nov 20 2019 14:32:21)
+0007.397 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.398 (0) Examining (for files) backup set with nonce=504def462ebe, datestamp=1574173513 (Nov 19 2019 14:25:13)
+0007.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.398 (0) Examining (for files) backup set with nonce=194914f083c5, datestamp=1574087112 (Nov 18 2019 14:25:12)
+0007.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.398 (0) Examining (for files) backup set with nonce=5c1ef2820fc9, datestamp=1574001012 (Nov 17 2019 14:30:12)
+0007.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.398 (0) Examining (for files) backup set with nonce=4273ffe1ff91, datestamp=1573741865 (Nov 14 2019 14:31:05)
+0007.398 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.399 (0) Retain: saving new backup history (sets now: 11) and finishing retain operation
+0007.403 (0) Resume backup (12fb8c48c8f9, 0): finish run
+0007.406 (0) Decremented the semaphore (d) by 1
+0007.408 (0) Semaphore (d) unlocked
+0007.409 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.412 (0) The backup apparently succeeded and is now complete
+0007.414 (0) Fetching RSS news feed
+0007.724 (0) Fetched RSS news feed; result is a: SimplePie
+0007.815 (0) Sending email ('Base de données uniquement (les fichiers n'étaient pas inclus dans cette sauvegarde planifiée)') report (attachments: 0, size: 0 KB) to: alanb...
+0007.955 (0) La sauvegarde a réussie. Elle est maintenant terminée.
